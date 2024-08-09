@@ -1,0 +1,45 @@
+// Page Title
+h1 {
+  margin: 70px;
+  text-align:center;
+  font-family:Montserrat,sans-serif;
+  color:#FB9C2A;
+
+}
+
+// Page text
+p {
+  
+  text-align:center;
+  font-family:Montserrat,sans-serif;
+  color:#223651;
+
+}
+
+  li {
+
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: lowercase;
+  }
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
